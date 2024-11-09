@@ -1,7 +1,7 @@
 package class1;
 
 public class Student {
-    private final String name;
+    private String name;
     private final Integer age;
     private final Integer score;
 
@@ -21,6 +21,10 @@ public class Student {
 
     public Integer getScore() {
         return score;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
 //    public String toString() {
